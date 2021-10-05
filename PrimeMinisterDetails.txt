@@ -1,0 +1,14 @@
+class PrimeMinister
+{
+public static String getPrimeMinisterDetails(String name,String country name, int age,String married,String alive,int duration)
+{
+System.out.println("Prime minister");
+System.out.println(name+"\n"+country name+"\n"+ age+"\n"+ married+"\n"+ alive+"\n"+duration);
+
+}
+}
+class PrimeMinisterDetails
+{
+public static void main(String[] goodman)
+PrimeMinister.getPrimeMinisterDetails("Narendra modhi","India",69,"yes","yes",5);
+}

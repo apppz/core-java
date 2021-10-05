@@ -1,0 +1,4 @@
+enum MusicType
+{
+ALBUM,MOVIE,RAPSONG,MELODIOUS;
+}
