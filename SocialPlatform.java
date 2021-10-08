@@ -1,0 +1,4 @@
+enum SocialPlatform
+{
+VOICE,POST;
+}

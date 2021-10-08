@@ -1,0 +1,4 @@
+enum SocialLangauge
+{
+KANNADA,ENGLISH,HINDHI,TAMIL,TELUGU;
+}

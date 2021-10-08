@@ -1,0 +1,4 @@
+enum MiWorking
+{
+YES,NO;
+}

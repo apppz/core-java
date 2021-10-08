@@ -2,22 +2,16 @@ class CurrencyStarter
 {
 	public static void main(String[] args)
 	{
-		
-	
 Currency currency=new Currency("Rupees",76);
 currency.displayDetails();
 currency=new currency("dollers");
 currency.value=0.18f;
 
-//System.out.println(currency.name);
-//System.out.println(currency.value);
+
 currency.displayDetails();
 Currency currency1=new Currency("dollar",432);
 currency.value=0.18f;
 currency.displayDetails();
-
-//System.out.println(currency.name);
-//System.out.println(currency.value);
 
 currency.country=new CountryDetail("india",91);
 System.out.println(currency.country);
@@ -32,13 +26,5 @@ company.displayDetails();
 company.country=new CountryDetails();
 CountryDetails country=company.country;
 country1.displayDetails();
-	
-	
-
-
-
 	}
-
-
-
 }
