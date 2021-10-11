@@ -3,7 +3,7 @@ class MiPhone
 String brand;
 float price;
 String color;
-float imei;
+long imei;
 MiPhonePay phonePay;
 
 MiPhone()
@@ -21,7 +21,7 @@ void setColor(String color)
 {
 this.color=color;
 }
-void setImei(float imei)
+void setImei(long imei)
 {
 this.imei=imei;
 }
